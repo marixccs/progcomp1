@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;   /* define o espaçamento externo da página */
+    padding: 0;  /* espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /* texto centralizado */
+}
+
+header {
+    background-color: #ffb401; /* #28a745 */
+    color: white;
+    padding: 15px 0px; /* 15 px espaçamenteo interno acima e abaixo / 0px direita e esquerda) */
+    font-size: 24px
+}
+
+nav {
+    background-color: #0060f5; /* #007bff */
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu */
+    align-items: center; /* alinhamento na vertical */
+}
+#links-menu { /* # referencia uma div */
+    display: flex;
+    gap: 30px; /* distância entre os itens do menu */ 
+}
+nav a { /* configura os links do menu */
+    color: white;
+    text-decoration: none; /* não decora os links, tipo não coloca underline etc */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px a direita e esquerda) */
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 10px; /* cantos arredondados */
+
+}
+img{
+    width: 130px;
+    height: auto;
+    margin-right: 20px; /* espaçamento externo à direita */
+    border-radius: 15px;
+}
+.container{
+    width: 80%; /* largura de 80%, não se coloca em px pois pode haver redimensionamento da página pelo usuário */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
