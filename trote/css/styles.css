@@ -4,6 +4,7 @@ body {
     padding: 0;  /* espaçamento interno da página */
     background-color: #f4f4f4;
     text-align: center; /* texto centralizado */
+    
 }
 
 header {
@@ -51,4 +52,10 @@ img{
 }
 h2{
     text-align: center;
+}
+table tr td { /* vai pegar todos os td que estão dentro do tr e dentro do table */
+    padding: 20px
+}
+table{
+    margin: 0 auto ; /*centraliza a tabela na página */
 }
