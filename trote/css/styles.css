@@ -59,3 +59,37 @@ table tr td { /* vai pegar todos os td que estão dentro do tr e dentro do table
 table{
     margin: 0 auto ; /*centraliza a tabela na página */
 }
+.cabeçalho{
+    background-color: navy;
+    color: white
+}
+.laranja{
+    background-color: orange;
+}
+.preta{
+    background-color: black;
+    color: white
+}
+.roxa{
+    background-color: rgb(158, 28, 158);
+}
+.verde{
+    background-color: green;
+}
+.vermelha{
+    background-color: red;
+    }
+.red{
+    color: red;
+}
+table tr th {
+    padding: 10px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#tabela1{
+    text-align: center;
+}
