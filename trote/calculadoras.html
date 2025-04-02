@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trote Solidário - 2025</title>
     <link rel="stylesheet" href="css/styles.css"/> <!-- style de estilo e sheet de folha, href refencia a pagina -->
-
+    <script src="js/scripts.js"> </script>
 </head>
 <body>
     <header> <!-- cabeçalho do corpo da página -->
@@ -28,12 +28,76 @@
     <!-- class podemos reutilizar o estilo, id não -->
     <!-- id não pode ser reutilizado pois só temos um elemento por id -->
     <div class="container">
-        <h2 > Trote Solidário </h2>
-        <p> Construa vitórias fora de campo e jogue pela solidariedade </p>
-        <p> Centro Universitário Municipal de Franca </p>
-        <p> Uni-FACEF </p>
-        <p> Franca-SP </p>
-    </div>
+        <h2> Calculadoras </h2>
+        <form> 
+            <div class="campos">
+                <label> Selecione a cor da equipe </label>
+                <select id="equipe"> 
+                    <option value="Laranja"> Laranja </option>
+                    <option value="Preta"> Preta </option>
+                    <option value="Roxa"> Roxa </option>
+                    <option value="Verde"> Verde </option>
+                    <option value="Vermelha"> Vermelha </option>
+                </select>
+            </div>
+            <div class="campos">
+                <label> Mascote do Time </label>
+                <input type="number" id="mascote"/>
+            </div>
+            <div class="campos">
+                <label> Homenagem Atleta </label>
+                <input type="number" id="homenagem" />
+            </div>
+            <div class="campos"> 
+                <label> Litros de leite </label>
+                <input type="number" id="leite"/>
+            </div>
+            <div class="campos">
+                <label> Kit alimentação </label>
+                <input type="number" id="kit"/>
+            </div>
+            <div class="campos">
+                <label> Suplemento </label>
+                <input type="number" id="suplemento"/>  <!-- quando variavel tem nome composto, primeiro letra minusc e segundo letra maisc tudo junto-->
+            </div>
+            <div class ="campos">
+                <label> Pacote de Arroz (5kg) </label>
+                <input type="number" id="pacoteArroz5kg"/>
+            </div>
+            <div class="campo">
+                <label> Pacote de Arroz (1kg) </label>
+                <input type="number" id="pacoteArroz1kg"/>
+            </div>
+            <br>
+            <div class="campo">
+                <label> Pacote de Feijão (2kg) </label>
+                <input type="number" id="pacoteFeijao2kg"/>
+            </div>
+            <br>
+            <div class="campo">
+                <label> Pacote de Feijão (1kg) </label>
+                <input type="number" id="pacoteFeijao1kg"/>
+            </div>
+            <br>
+            <div class="campo">
+                <label> Pacote de Macarraão (400g/500g) </label>
+                <input type="number" id="pacoteMacarrao"/>
+            </div>
+            <br>
+            <div class="campo">
+                <label> Óleo (900ml) </label>
+                <input type="number" id="oleo"/>
+            </div>
+            <br>
+            <div class="campos">
+                <br>
+                <button type="button" onclick="calcular()"> Calcular </button>
+                <label id="soma"> </label>
+            </div>
+            </form>
+        </div>
+        
 
-</body>
+
+    </body>
 </html>
