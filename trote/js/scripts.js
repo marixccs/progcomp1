@@ -25,7 +25,7 @@ function calcular(){
     equipe = document.getElementById("equipe").value
     if(equipe == "Laranja"){
         if (kit >= 97){
-            soma = soma + 50000 + ((kit-97)*30)
+            soma = soma + 5000 + ((kit-97)*30)
         }
         else if (kit >= 78){
             soma = soma + 4000 + ((kit-78)*30)
@@ -36,7 +36,6 @@ function calcular(){
         else if (kit >= 19){
             soma = soma + 1000 + ((kit-19)*30)
         }
-
     }
     // retorna o valor ao HTML pega a soma e joga para o html  
     // template string - se usa CRASE (virada para a direita)
