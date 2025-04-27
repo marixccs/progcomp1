@@ -2,20 +2,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;   /* define o espaçamento externo da página */
     padding: 0;  /* espaçamento interno da página */
-    background-color: #f4f4f4;
+    background-color: #3062e9;
     text-align: center; /* texto centralizado */
     
 }
 
 header {
-    background-color: #ffb401; /* #28a745 */
-    color: white;
+    background-color: #ec9900; /* #28a745 */
+    color: rgb(255, 255, 255);
     padding: 15px 0px; /* 15 px espaçamenteo interno acima e abaixo / 0px direita e esquerda) */
     font-size: 24px
 }
 
 nav {
-    background-color: #0060f5; /* #007bff */
+    background-color: hsl(219, 100%, 60%); /* #007bff */
     padding: 10px; /* espaçamento interno do menu */
     display: flex; /* Flex boxing */
     justify-content: space-between; /* espaço entre os elementos do menu */
@@ -30,7 +30,7 @@ nav a { /* configura os links do menu */
     text-decoration: none; /* não decora os links, tipo não coloca underline etc */
     padding: 10px 15px; /* (10px acima e abaixo) (15px a direita e esquerda) */
     font-size: 18px;
-    background: #0056b3;
+    background: hsl(219, 98%, 55%);
     border-radius: 10px; /* cantos arredondados */
 
 }
@@ -77,7 +77,7 @@ table{
     background-color: green;
 }
 .vermelha{
-    background-color: red;
+    background-color: rgb(204, 3, 3);
     }
 .red{
     color: red;
@@ -96,4 +96,92 @@ table{
 }
 .tabelaaz{
     background-color: aqua;
+}
+
+
+
+
+/* calculadora */
+
+/* form */
+
+form {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form select {
+    width: 103%;
+    padding: 8px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Botão Calcular */
+form button {
+    background-color: #2d5aee; /* Verde moderno */
+    color: white;
+    border: none;
+    padding: 15px 25px; /* Tamanho maior para tornar o botão mais chamativo */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho de fonte agradável */
+    transition: all 0.3s ease-in-out; /* Efeito suave ao passar o mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
+}
+
+form button:hover {
+    background-color: #f0b905; /* Verde mais escuro ao passar o mouse */
+    transform: translateY(-3px); /* Levanta o botão ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+}
+
+form button:active {
+    transform: translateY(2px); /* Efeito de pressionamento */
+}
+
+/* Soma (Resultado) */
+#soma {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px; /* Tamanho de fonte maior */
+    color: #005fec; /* Cor azul mais vibrante */
+    font-weight: bold;
+    background-color: #aacffa; /* Fundo suave para destaque */
+    padding: 15px;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease-in-out;
+}
+
+#soma:hover {
+    background-color: #c6daf7; /* Cor mais clara no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Aumenta a sombra */
+}
+
+
+#calc{
+    width: 80%; /* largura de 80%, não se coloca em px pois pode haver redimensionamento da página pelo usuário */
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */
+    text-align: justify;
 }

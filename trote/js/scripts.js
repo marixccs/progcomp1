@@ -1,5 +1,6 @@
 function calcular(){
-    // JS AS VARIAVEIS POSSUEM TIPO, MAS NÃO É NECESSÁRIO DECLARAR
+    // vamos criar 2 variáveis
+    // JS as variáveis não possuem tipo (ex.: inteiro, real, cadeira etc)
     let mascote, homenagem, leite, kit, suplemento, pacoteArroz5kg, pacoteArroz1kg, pacoteFeijao2kg, pacoteFeijao1kg, pacoteMacarrao, oleo, sangue, soma, equipe
     // recupera o VALOR do mascote digitado pelo usuário
     mascote = Number(document.getElementById("mascote").value)
@@ -10,7 +11,7 @@ function calcular(){
     //recupera a qtde de kit avulso
     kit =  Number(document.getElementById("kit").value)
     //recupera a qtde de suplementos avulso
-    suplemento = Number(document.getElementById("suplemento").value)  
+    suplemento = Number(document.getElementById("suplemento").value)
     pacoteArroz5kg = Number(document.getElementById("pacoteArroz5kg").value)
     pacoteArroz1kg = Number(document.getElementById("pacoteArroz1kg").value)
     pacoteFeijao2kg = Number(document.getElementById("pacoteFeijao2kg").value)
@@ -96,3 +97,33 @@ function calcular(){
     // template string - se usa CRASE (virada para a direita)
     document.getElementById("soma").innerHTML = `A soma é ${soma}`  
 }
+/* trocar cor no select */
+
+function trocarCor() {
+    var equipe = document.getElementById("equipe").value;
+    var cor = "";
+
+    switch(equipe) {
+        case "Laranja":
+            cor = "orange";
+            break;
+        case "Preta":
+            cor = "black";
+            break;
+        case "Roxa":
+            cor = "purple";
+            break;
+        case "Verde":
+            cor = "green";
+            break;
+        case "Vermelha":
+            cor = "red";
+            break;
+        default:
+            cor = "#f4f4f4"; // Cor padrão de fundo
+    }
+
+    document.body.style.backgroundColor = cor;
+}
+
+
