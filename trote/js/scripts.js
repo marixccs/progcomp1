@@ -1,6 +1,5 @@
 function calcular(){
-    // vamos criar 2 variáveis
-    // JS as variáveis não possuem tipo (ex.: inteiro, real, cadeira etc)
+    // JS AS VARIAVEIS POSSUEM TIPO, MAS NÃO É NECESSÁRIO DECLARAR
     let mascote, homenagem, leite, kit, suplemento, pacoteArroz5kg, pacoteArroz1kg, pacoteFeijao2kg, pacoteFeijao1kg, pacoteMacarrao, oleo, sangue, soma, equipe
     // recupera o VALOR do mascote digitado pelo usuário
     mascote = Number(document.getElementById("mascote").value)
@@ -11,7 +10,7 @@ function calcular(){
     //recupera a qtde de kit avulso
     kit =  Number(document.getElementById("kit").value)
     //recupera a qtde de suplementos avulso
-    suplemento = Number(document.getElementById("suplemento").value)
+    suplemento = Number(document.getElementById("suplemento").value)  
     pacoteArroz5kg = Number(document.getElementById("pacoteArroz5kg").value)
     pacoteArroz1kg = Number(document.getElementById("pacoteArroz1kg").value)
     pacoteFeijao2kg = Number(document.getElementById("pacoteFeijao2kg").value)
