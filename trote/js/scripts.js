@@ -3,7 +3,7 @@ function calcular(){
     // JS as variáveis não possuem tipo (ex.: inteiro, real, cadeira etc)
     let mascote, homenagem, leite, kit, suplemento, pacoteArroz5kg, pacoteArroz1kg, pacoteFeijao2kg, pacoteFeijao1kg, pacoteMacarrao, oleo, sangue, soma, equipe, registroa, registrob, acao, torcida, chuva, frescominton, memoria, embaixadinha, jogoi, jump, pegaa 
     // recupera o VALOR do mascote digitado pelo usuário
-    mascote = Number(document.getElementById("mascote").value)
+    mascote =   
     // recupera o VALOR da homenagem digitado pelo usuário
     homenagem = Number(document.getElementById("homenagem").value) //number pega o que o usuário está digitando e já convertendo em número
     //recupera a qtde de litros de leite
