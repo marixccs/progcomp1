@@ -82,6 +82,9 @@ table{
 .red{
     color: red;
 }
+.cinza{
+     background-color: #c0c0c0;
+}
 table tr th {
     padding: 10px;
     text-align: center;
@@ -95,7 +98,10 @@ table{
     
 }
 .tabelaaz{
-    background-color: aqua;
+    background-color: #dbe5f1;
+}
+.tabelaam{
+    background-color: #edefd5;
 }
 
 
